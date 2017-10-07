@@ -6,3 +6,17 @@
     width: 100%;
     height: 16rem;
 }
+#myTab li{
+    width: 50%;
+}
+#myTab .active{
+    color: red;
+}
+#home img{
+    margin: 15px 10px;
+}
+.form-control{
+    display: inline;
+    width: 60%;
+    margin-left: 20px;
+}
