@@ -1,0 +1,9 @@
+.navbar-default a{
+    float: left;
+    padding-right: 15px;
+}
+.navbar-default span{
+    position: relative;
+    left: -25px;
+}
+
