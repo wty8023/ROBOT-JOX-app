@@ -26,6 +26,10 @@
     margin-top: 15px;
     padding: 8px 12px;
 }
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+    border-bottom: 1px solid red;
+    color: red;
+}
 
 /**/
 .navbar-brand{

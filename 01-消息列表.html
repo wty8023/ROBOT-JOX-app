@@ -14,8 +14,31 @@
     <div id="header">
         <nav class="navbar navbar-default navbar-fixed-top"><a href="01首页.html" class=""><img src="img/返回.png" alt="消息" class="icon"></a><span>消息</span></nav>
     </div>
-    <div id="message">
-
+    <div id="message" class="text-center">
+        <ul id="myTab" class="row nav nav-tabs">
+            <li class="active col-xs-4">
+                <a href="#have-not" data-toggle="tab">未读</a>
+            </li>
+            <li class="col-xs-4">
+                <a href="#readed" data-toggle="tab">已读</a>
+            </li>
+            <li class="col-xs-4">
+                <a href="#all-message" data-toggle="tab">全部</a>
+            </li>
+        </ul>
+        <div id="myTabContent" class="tab-content">
+            <div class="tab-pane fade in active form-group" id="have-not">
+            </div>
+            <div class="tab-pane fade" id="readed">
+            </div>
+            <div class="tab-pane fade" id="all-message">
+            </div>
+        </div>
+        <!--<ul class="row">
+            <li class="col-xs-4">未读</li>
+            <li class="col-xs-4">已读</li>
+            <li class="col-xs-4">全部</li>
+        </ul>-->
     </div>
 
 
