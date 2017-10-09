@@ -6,9 +6,46 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="js/bootstrap-3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/my.css"/>
     <title>My</title>
 </head>
 <body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            我的
+        </nav>
+        <div class="imgs">
+            <img src="img/0bfc51e809297001396ba600b4a31914.jpg" alt="图片">
+        </div>
+        <table class="table table-striped">
+            <tbody>
+            <tr id="invite">
+                <td><img src="img/邀请好友.png" alt=""/><span>邀请好友</span></td>
+            </tr>
+            <tr>
+                <td><img src="img/代理人.png" alt=""/><span>我的代理人</span></td>
+            </tr>
+            <tr>
+                <td><img src="img/设置.png" alt=""/><span>设置</span></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="share" class="see">
+        <ul id="myTab" class="nav nav-tabs text-center">
+            <li>
+                <img src="img/微信.png" alt=""/><br/>
+                <span>微信好友</span>
+            </li>
+            <li>
+                <img src="img/朋友圈.png" alt=""/><br/>
+                <span>朋友圈</span>
+            </li>
+        </ul>
+        <ul class="cancel">
+            <li><span>取消</span></li>
+        </ul>
+    </div>
 
 
 
@@ -33,6 +70,12 @@
     </div>
 <script src="js/jquery-1.9.1.min.js"></script>
 <script src="js/bootstrap-3.3.7/js/bootstrap.min.js"></script>
-<script src=""></script>
+<script>
+    $(function(){
+        $('#invite').on('click', function () {
+            $('#share').toggleClass('see')
+        });
+    });
+</script>
 </body>
 </html>

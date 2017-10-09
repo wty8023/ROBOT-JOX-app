@@ -1,0 +1,29 @@
+body{
+    padding-top: 54px;
+}
+.imgs img{
+    width: 100%;
+    height: 16rem;
+}
+.table img{
+    margin-left: 15px;
+}
+.table span{
+    font-size: 12px;
+    margin-left: 2em;
+}
+#share{
+    margin-top: 40%;
+}
+.see{
+    display: none;
+}
+#myTab li{
+    width: 50%;
+}
+.cancel{
+    width: 100%;
+    height: 52px;
+    text-align: center;
+    font-size: 1.5em;
+}
