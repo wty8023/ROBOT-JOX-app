@@ -18,3 +18,25 @@ body{
     border-bottom: 1px solid red;
     color: red;
 }
+#myTabContent div{
+    margin-top: 4em;
+}
+.alert{
+    position: relative;
+    top: 1em;
+}
+.order {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+
+}
+.order .line {
+    display: inline-block;
+    width: 30%;
+    border-top: 1px solid #ccc ;
+}
+.order .txt {
+    color: #686868;
+    vertical-align: middle;
+}
