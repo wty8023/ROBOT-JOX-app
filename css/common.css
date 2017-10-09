@@ -48,6 +48,7 @@ a {
 
 /*footer*/
 .navbar-brand{
+    background: #ffffff;
     padding: 0;
 }
 .navbar-brand li{
