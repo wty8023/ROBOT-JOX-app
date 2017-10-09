@@ -7,6 +7,7 @@ body{
     width: 50%;
     text-align: center;
     background: url(../img/搜索.png) no-repeat 1px;
+    background: #dddddd;
 }
 .table {
     width: 100%;
@@ -14,11 +15,16 @@ body{
     margin-bottom: 10px;
 }
 .form-control input{
-    background: #cccccc;
+    background: #000;
+}
+#myTab li{
+    width: 50%;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+    color: red;
 }
 .block{
     border-bottom: 3px solid #cccccc;
-    padding-bottom: 5px;
 }
 #container td{
     color: #707070;
@@ -30,15 +36,3 @@ body{
 .name{
     color: black;
 }
-.update-time{
-    color: #c0c0c0;
-    margin: 0;
-}
-#container .successed{
-    color: #00ff00;
-}
-#container .fail{
-    color: red;
-}
-
-
