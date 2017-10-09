@@ -31,21 +31,3 @@
     color: red;
 }
 
-/**/
-.navbar-brand{
-    padding: 0;
-}
-.navbar-brand li{
-    border-right: 1px solid #cccccc;
-
-}
-#footer li a{
-    font-size: 10px;
-    color: black;
-}
-.btn-group-sm>.btn, .btn-sm{
-    padding: 3px 10px;
-}
-.default{
-    color: red;
-}

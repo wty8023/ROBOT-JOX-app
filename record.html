@@ -4,14 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>01首页</title>
     <link rel="stylesheet" href="js/bootstrap-3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/record.css"/>
     <title>Record</title>
 </head>
 <body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-default navbar-fixed-top row center-block">
+            <input type="text" class="form-control col-xs-offset" placeholder="车牌号"/>
+        </nav>
+        <div id="container">
+            <table class="table table-striped">
+                <tbody>
+                <tr>
+                    <td>平安</td>
+                    <td>太平洋</td>
+                    <td>人保</td>
+                </tr>
+                <tr>
+                    <td>￥4990.76</td>
+                    <td>￥7135.22</td>
+                    <td>报价失败</td>
+                </tr>
+                <tr>
+                    <td>未核保</td>
+                    <td class="fail">核保失败</td>
+                    <td class="success">核保成功</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
 
-
+    <div id="footer" class="navbar-fixed-bottom row">
+        <nav class="navbar navbar-brand navbar-fixed-bottom">
+            <ul class="nav-tabs">
+                <li class="col-xs-3 btn btn-sm "><a href="index.html">
+                    <img src="img/1.png" alt="" class="icon nav"/><br/>
+                    <span>车险报价</span></a>
+                </li>
+                <li class="col-xs-3 btn btn-sm"><a href="record.html">
+                    <img src="img/other/2.png" alt="" class="icon nav"/><br/>
+                    <span  class="default">报价记录</span></a></li>
+                <li class="col-xs-3 btn btn-sm"><a href="customer.html">
+                    <img src="img/3.png" alt="" class="icon nav"/><br/>
+                    <span>客户</span></a></li>
+                <li class="col-xs-3 btn btn-sm"><a href="my.html">
+                    <img src="img/4.png" alt="" class="icon nav"/><br/>
+                    <span>我的</span></a></li>
+            </ul>
+        </nav>
+    </div>
 <script src="js/jquery-1.9.1.min.js"></script>
 <script src="js/bootstrap-3.3.7/js/bootstrap.min.js"></script>
 <script src=""></script>
