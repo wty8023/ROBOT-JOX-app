@@ -10,9 +10,6 @@
 #myTab li{
     width: 50%;
 }
-#myTab .active{
-    color: red;
-}
 #myTabContent img{
     margin: 1em 1em;
 }

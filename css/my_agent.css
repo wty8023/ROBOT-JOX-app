@@ -1,3 +1,46 @@
 body{
     padding-top: 54px;
 }
+.navbar img{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+#myTab li{
+    font-size: 12px;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+    border-bottom: 1px solid red;
+    color: red;
+}
+.tab-content span{
+    font-size: 4px;
+    color: #707070;
+    margin-left: 10px;
+}
+.table li{
+    width: 50%;
+}
+.right{
+    padding-right: 5px;
+}
+.right span{
+    float: right;
+    color: #000000;
+}
+.table ul{
+    overflow: hidden;
+    border-bottom: 2px solid #cccccc;
+}
+.up{
+    float: left;
+    width: 50%;
+
+    display: inline-block;
+}
+.down{
+    float: right;
+    width: 50%;
+    display: inline-block;
+    margin-top: 5px;
+}
