@@ -23,7 +23,7 @@
                 <td><img src="img/邀请好友.png" alt=""/><span>邀请好友</span></td>
             </tr>
             <tr>
-                <td><img src="img/代理人.png" alt=""/><span>我的代理人</span></td>
+                <td id="agent"><a href="my_agent.html"><img src="img/代理人.png" alt=""/><span>我的代理人</span></a></td>
             </tr>
             <tr>
                 <td><img src="img/设置.png" alt=""/><span>设置</span></td>
@@ -33,16 +33,16 @@
     </div>
     <div id="share" class="see">
         <ul id="myTab" class="nav nav-tabs text-center">
-            <li>
+            <li class="btn">
                 <img src="img/微信.png" alt=""/><br/>
                 <span>微信好友</span>
             </li>
-            <li>
+            <li class="btn">
                 <img src="img/朋友圈.png" alt=""/><br/>
                 <span>朋友圈</span>
             </li>
         </ul>
-        <ul class="cancel">
+        <ul class="cancel btn">
             <li><span>取消</span></li>
         </ul>
     </div>
@@ -72,8 +72,11 @@
 <script src="js/bootstrap-3.3.7/js/bootstrap.min.js"></script>
 <script>
     $(function(){
-        $('#invite').on('click', function () {
-            $('#share').toggleClass('see')
+        $('#invite').on('click', function(){
+            $('#share').toggleClass('see');
+        });
+        $('#agent').on('click', function(){
+            document.location.href="my_agent.html";
         });
     });
 </script>
