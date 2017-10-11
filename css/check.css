@@ -1,0 +1,59 @@
+body{
+    padding-top: 54px;
+    background: rgb(246, 246, 246);
+}
+.container-fluid{
+    background: #ffffff;
+}
+.navbar-default a{
+    float: left;
+    padding-right: 15px;
+}
+.navbar-default span{
+    position: relative;
+    left: -25px;
+}
+#licence{
+    font-size: 2em;
+    display: block;
+    text-align: center;
+    margin: 1em 0;
+}
+.details{
+    border-bottom: 2px solid #d0d0d0;
+    background: #ffffff;
+}
+.details ul{
+    padding-left: 1.8em;
+}
+.details li{
+    margin-bottom: 0.4em;
+}
+caption{
+    font-size: 0.1em;
+}
+.name span{
+    float: right;
+}
+#a{
+
+    padding: 5px;
+    padding-left: 1em;
+    background: #dddddd;
+}
+#b{
+    text-align: center;
+    padding: 5px;
+    background: #ffffff;
+    position: relative;
+    top: 0.6em;
+}
+.navbar-fixed-bottom{
+    background: #ffffff;
+    border-top: 2px solid #dddddd;
+    text-align: center;
+}
+#btn{
+    padding: 0.5em 2em;
+    margin: 0.6em auto;
+}
