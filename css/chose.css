@@ -1,0 +1,27 @@
+body{
+    padding-top: 54px;
+    background: rgb(246, 246, 246);
+}
+.container-fluid{
+    background: #ffffff;
+}
+.navbar-default a{
+    float: left;
+    padding-right: 15px;
+}
+#close{
+    float: right;
+    padding-right: 15px;
+}
+.details li{
+    padding-left: 1em;
+    margin-top: 0.4em;
+}
+.details a{
+    display: block;
+    color: red;
+    text-decoration: underline;
+}
+.details{
+    border-bottom: 2px solid #dddddd;
+}
