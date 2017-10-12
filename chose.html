@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="js/bootstrap-3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/DateTimePicker.css" />
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/chose.css">
     <title>选择险种</title>
@@ -30,11 +31,191 @@
         <div class="mid row">
             <span class="col-xs-6">报价车型</span>
             <span class="left col-xs-6">按续保车型报价 <img src="img/下.png" alt=""/></span>
-        </div>
-        <div class="container">
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td>交强险起保时间</td>
+                        <td  class='input-group date col-xs-4'>
+                            <input type="text" class="form-control col-xs-4" data-field="date" readonly>
+                                <span class="glyphicon glyphicon-calendar"></span>
+                            <div class="dtBox"></div>
+                        </td>
+                        <td class="col-xs-4 ">
+                            <div class="switch">
+                                <input type="checkbox" value="0" name="myinput"/>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>商业险起保时间</td>
+                        <td  class='input-group date col-xs-4'>
+                            <input type="text" class="form-control col-xs-4" data-field="date" readonly>
+                            <span class="glyphicon glyphicon-calendar"></span>
+                            <div class="dtBox"></div>
+                        </td>
+                        <td class="col-xs-4"><div class="switch">
+                            <input type="checkbox" value="0" name="myinput"/>
+                        </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>车辆损失险</td>
+                        <td>
+                            <div class="checkbox col-xs-4">
+                                <input type="checkbox" checked="checked">
+                            </div>
+                            <span style="color: black;">不计免赔</span>
+                        </td>
+                        <td class="col-xs-4"><div class="switch">
+                            <input type="checkbox" value="0" name="myinput"/>
+                        </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>第三者责任险</td>
+                        <td>
+                            <div class="checkbox col-xs-4">
+                                <input type="checkbox" checked="checked">
+                            </div>
+                            <span style="color: black;">不计免赔</span>
+                        </td>
+                        <td class="col-xs-4 left">
+                            <span>20万<img src="img/下.png" alt=""/></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>司机座位险</td>
+                        <td>
+                            <div class="checkbox col-xs-4">
+                                <input type="checkbox" checked="checked">
+                            </div>
+                            <span style="color: black;">不计免赔</span>
+                        </td>
+                        <td class="col-xs-4 left">
+                            <span>5万<img src="img/下.png" alt=""/></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>乘客座位险</td>
+                        <td style="height: 42.2px;">
 
+                        </td>
+                        <td class="col-xs-4 left">
+                            <span>不投保<img src="img/下.png" alt=""/></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>全车盗抢险</td>
+                        <td>
+                            <div class="checkbox col-xs-4">
+                                <input type="checkbox" checked="checked">
+                            </div>
+                            <span style="color: black;">不计免赔</span>
+                        </td>
+                        <td class="col-xs-4"><div class="switch">
+                            <input type="checkbox" value="0" name="myinput"/>
+                        </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>划痕险</td>
+                        <td style="height: 42.2px;">
+
+                        </td>
+                        <td class="col-xs-4 left">
+                            <span>不投保<img src="img/下.png" alt=""/></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>玻璃单独破碎险</td>
+                        <td style="height: 42.2px;">
+
+                        </td>
+                        <td class="col-xs-4 left">
+                            <span>不投保<img src="img/下.png" alt=""/></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>自燃损失险</td>
+                        <td>
+                            <div class="checkbox col-xs-4">
+                                <input type="checkbox" checked="checked">
+                            </div>
+                            <span style="color: black;">不计免赔</span>
+                        </td>
+                        <td class="col-xs-4"><div class="switch">
+                            <input type="checkbox" value="0" name="myinput"/>
+                        </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>玻璃单独破碎险</td>
+                        <td style="height: 42.2px;">
+
+                        </td>
+                        <td class="col-xs-4"><div class="switch">
+                            <input type="checkbox" value="0" name="myinput"/>
+                        </div>
+                    </tr>
+                    <tr>
+                        <td>车损无法找到三方特约</td>
+                        <td style="height: 42.2px;">
+
+                        </td>
+                        <td class="col-xs-4"><div class="switch">
+                            <input type="checkbox" value="0" name="myinput"/>
+                        </div>
+                    </tr>
+                    <tr>
+                        <td>指定修理厂险</td>
+                        <td style="height: 42.2px;">
+
+                        </td>
+                        <td class="col-xs-4 left">
+                            <span>不投保<img src="img/下.png" alt=""/></span>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+        <div class="navbar-fixed-bottom">
+            <a href="privy.html"><button id="btn" type="button" class="btn btn-danger">下一步</button></a>
         </div>
     </div>
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/DateTimePicker.js"></script>
+<script type="text/javascript">
+    $(document).ready(function()
+    {
+        var bIsPopup = displayPopup();
 
+        $(".dtBox").DateTimePicker(
+                {
+                    isPopup: bIsPopup,
+
+                    addEventHandlers: function()
+                    {
+                        var dtPickerObj = this;
+
+                        $(window).resize(function()
+                        {
+                            bIsPopup = displayPopup();
+                            dtPickerObj.setIsPopup(bIsPopup);
+                        });
+                    }
+                });
+    });
+
+    function displayPopup()
+    {
+        if($(document).width() >= 768)
+            return false;
+        else
+            return true;
+    }
+
+</script>
 </body>
 </html>

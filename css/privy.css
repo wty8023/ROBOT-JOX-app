@@ -1,0 +1,23 @@
+body{
+    padding-top: 54px;
+    background: rgb(246, 246, 246);
+}
+.container-fluid{
+    background: #ffffff;
+}
+.navbar-default a{
+    float: left;
+    padding-right: 15px;
+}
+#setting{
+    float: right;
+    padding-right: 15px;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+    line-height: 2.5em;
+}
+.navbar-fixed-bottom{
+    background: #ffffff;
+    border-top: 2px solid #dddddd;
+    text-align: center;
+}
