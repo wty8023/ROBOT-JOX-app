@@ -57,3 +57,14 @@ caption{
     padding: 0.5em 2em;
     margin: 0.6em auto;
 }
+.container{
+    position: relative;
+}
+.container img{
+    position: absolute;
+    top: 0.1em;
+    right: 2em;
+}
+.container tr,th{
+    text-align: center;
+}

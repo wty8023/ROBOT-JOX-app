@@ -23,5 +23,35 @@ body{
     text-decoration: underline;
 }
 .details{
-    border-bottom: 2px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
 }
+.mid{
+    border-bottom: 0.2em solid #dddddd;
+}
+.mid span{
+    color: #707070;
+    display: block;
+    margin: 0.4em 0;
+    text-align: center;
+}
+.left img{
+    position: relative;
+    bottom: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
